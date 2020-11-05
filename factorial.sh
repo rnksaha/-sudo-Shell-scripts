@@ -9,6 +9,5 @@ fact()
 		echo $res
 	fi
 }
-
 read -p "Enter an positive integer: " n
 echo -e "Factorial of \"$n\" is `fact $n`"
